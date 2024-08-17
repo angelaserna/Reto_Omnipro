@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-08-17T06:06:38.211Z",
+    "end": "2024-08-17T06:06:42.704Z",
+    "duration": 4493,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "20ff618f-de47-4204-aa8d-19f4bdbc9658",
+      "title": "",
+      "fullFile": "cypress\\e2e\\comprar_producto.cy.js",
+      "file": "cypress\\e2e\\comprar_producto.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "e34ce3e0-f2aa-4563-b8c0-ce92b475c254",
+          "title": "Screenplay con Cypress Version 2",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Agregar al carrito",
+              "fullTitle": "Screenplay con Cypress Version 2 Agregar al carrito",
+              "timedOut": null,
+              "duration": 3082,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.loginInSaucedemo(\"standard_user\", \"secret_sauce\");\ncy.agregar_producto(producto);\ncy.ir_al_carrito();\ncy.checkout();\ncy.informacion_checkout(\"Pepito\", \"Perez\", \"050001\");\ncy.continuar_compra();\ncy.verificar_costo();\ncy.finalizar_compra();",
+              "err": {},
+              "uuid": "3137c8dd-3f69-4339-8945-00bdf1676c63",
+              "parentUUID": "e34ce3e0-f2aa-4563-b8c0-ce92b475c254",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "3137c8dd-3f69-4339-8945-00bdf1676c63"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3082,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

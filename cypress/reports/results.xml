@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="3.256" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-08-17T06:11:15" tests="0" file="cypress\e2e\eliminar_producto_carrito.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Screenplay con Cypress Version 2" timestamp="2024-08-17T06:11:15" tests="1" time="3.250" failures="0">
+    <testcase name="Screenplay con Cypress Version 2 Eliminar producto carrito" time="1.549" classname="Eliminar producto carrito">
+    </testcase>
+  </testsuite>
+</testsuites>

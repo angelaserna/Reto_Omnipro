@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-08-17T06:06:33.385Z",
+    "end": "2024-08-17T06:06:36.239Z",
+    "duration": 2854,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f1cad7ca-d549-416f-b5bb-d20a911e7e21",
+      "title": "",
+      "fullFile": "cypress\\e2e\\autenticacion_cel.cy.js",
+      "file": "cypress\\e2e\\autenticacion_cel.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "96bfead8-f45d-4dc1-8ea0-0881a5a29962",
+          "title": "Prueba en vista movil",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Autenticación exitosa en dispositivo movil",
+              "fullTitle": "Prueba en vista movil Autenticación exitosa en dispositivo movil",
+              "timedOut": null,
+              "duration": 1203,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.loginInSaucedemo(\"standard_user\", \"secret_sauce\");\ncy.loginExitoso();",
+              "err": {},
+              "uuid": "ed634f5d-c160-4c6e-8688-b8344a56b892",
+              "parentUUID": "96bfead8-f45d-4dc1-8ea0-0881a5a29962",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ed634f5d-c160-4c6e-8688-b8344a56b892"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1203,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
